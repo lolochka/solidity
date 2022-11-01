@@ -91,6 +91,24 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_increment",
+						"type": "uint256"
+					}
+				],
+				"name": "storeIncremented",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -106,7 +124,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Storage.sol": "Storage"
+			"contracts/ExtraStorage.sol": "ExtraStorage"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -120,6 +138,14 @@
 		"remappings": []
 	},
 	"sources": {
+		"contracts/ExtraStorage.sol": {
+			"keccak256": "0x69a21553b6e2bfe5169285009ebb4e04bfdaec88786415a31a0a5d8413f68690",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1c517859324fdbec068c664e6260fa2ee597f5e032ad58022f44e51f051c8fc6",
+				"dweb:/ipfs/QmRuF2kMWgcVafWNEPurhc8PLgwMdwUr2eWuGeAoCgB18a"
+			]
+		},
 		"contracts/Storage.sol": {
 			"keccak256": "0x31e18eb489e53a29326ec04bf387dc87851c37995e7b93e85e29435aa35768bb",
 			"license": "MIT",
